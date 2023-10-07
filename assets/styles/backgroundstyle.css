@@ -1,0 +1,58 @@
+#sfondo{
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    background-color: #D9E5F3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#sfera-dx{
+    position: absolute;
+    z-index: -1;
+    right: 33px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#sfera-sx{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+#onda-superiore{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+}
+
+#onda-intermedia{
+    position: absolute;
+    z-index: -2;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+}
+
+#onda-inferiore{
+    position: absolute;
+    z-index: -3;
+    bottom: 70px;
+    transform: rotate(-2deg);
+    left: 0;
+    right: 0;
+}
+
+#razzo{
+    position: absolute;
+    z-index: 0;
+    bottom: 30px;
+    right: 150px;
+}
