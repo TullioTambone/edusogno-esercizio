@@ -12,14 +12,14 @@ if (isset($_POST['submit'])) {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'tulliotambone97@gmail.com'; //la tua gmail personale
+    $mail->Username = ''; //la tua gmail personale
     $mail->Password = ''; //la tua password generata da gmail dalla sezione 'password per le app'
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
 
-    $mail->setFrom('tulliotambone97@gmail.com'); //la tua gmail personale
+    $mail->setFrom(''); //la tua gmail personale
 
-    $mail->addAddress('tulliotambone97@gmail.com'); //indirizzo di arrivo dell'email
+    $mail->addAddress(''); //indirizzo di arrivo dell'email
     $mail->isHTML(true);
     
     $mail->Subject = 'Edusogno Esercizio Master';
